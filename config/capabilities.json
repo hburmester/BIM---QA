@@ -1,0 +1,7 @@
+{
+  "platformName": "Android",
+  "platformVersion": "17",
+  "deviceName": "emulator-5554",
+  "app": "APK/APK_PRUEBA_ANDROID.apk",
+  "automationName": "UiAutomator2"
+}
