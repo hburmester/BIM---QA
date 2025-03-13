@@ -24,7 +24,7 @@ Asegúrate de tener instalados los siguientes programas en tu sistema:
 - [Python 3.12](https://www.python.org/downloads/)
 - [Appium Server](https://appium.io/)
 - [Node.js y npm](https://nodejs.org/)
-- [Java JDK 11+](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [Java JDK 17+](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
 - [Android SDK y ADB](https://developer.android.com/studio)
 
 ### Instalación de Dependencias
@@ -74,7 +74,7 @@ behave -f json -o utils/reporte/report.json
 ```
 
 ### Capturas de Pantalla
-Las capturas de pantalla se generan automáticamente en caso de fallas y se almacenan en `utils/reporte/`.
+Las capturas de pantalla se generan en los respectivos steps y se almacenan en `screenshots/`.
 
 ---
 ¡Listo! Ahora puedes ejecutar las pruebas automatizadas en tu dispositivo o emulador Android. 🚀
